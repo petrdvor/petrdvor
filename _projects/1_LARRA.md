@@ -47,6 +47,15 @@ All metrics and analyses are presented on the web gui interface. Let's go throug
 Allows to create a dataset. It is possible to create datasets for separate Target Processors (if data are available) and for given date range. Date range is selectable on two click in double calendar, as default the maximum available data range is prefilled.
 Already available datasets are displayed in table next to the calendar. 
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% responsive_image path: assets/img/larra-prep.png title: "Dataset preparation" class: "img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Preparation of the dataset, list of available datasets.
+</div>
+
 ### Statistics - Total number of detections
 Shows map of the airport with colored layer indicating number of detection in each cell by the whole system. The number is displayed in cursor label on hover over the cell. Total number of detections by each station are also shown in the table. This statistics is useful for identification of low-traffic cells.
 

@@ -59,22 +59,43 @@ Already available datasets are displayed in table next to the calendar.
 ### Statistics - Total number of detections
 Shows map of the airport with colored layer indicating number of detection in each cell by the whole system. The number is displayed in cursor label on hover over the cell. Total number of detections by each station are also shown in the table. This statistics is useful for identification of low-traffic cells.
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% responsive_image path: assets/img/larra-detections.png title: "Total number of detections" class: "img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Total number of detections color-coded in map. Number of total detections by each station in the table. Number of detection in single cell is shown as cursor label on hover.
+</div>
+
 ### Statistics - Number of contributing receivers
 For selected dataset the map with colored layer is displayed. Color of the cell corresponds to the number of receivers contributing to position detection. For each cell the number of receivers contributing to position detection is presented also in cursor label. It is possible to click in the figure (which selects the cell under examination) and contributing receivers for selected cell are then added to the map.
 In orded to decide if receiver contributes or not it is necessary to select desired probability of detection. The probablity of detection is selectable in the range from 0 to 100 %.
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% responsive_image path: assets/img/larra-receivers.png title: "Number of contributing receivers" class: "img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Number of contributing receivers color-coded in map. Probability of detection for receivers contributing to selected cell listed in the table. Number of contributing receiver for a single cell is shown as cursor label on hover. Cell is selectable on click.
+</div>
 
+### Statistics - Number of detections by receivers
+Shows map of the airport with colored layer indicating number of detection in each cell by each station - selectable in the radio list. The number of detections is displayed in cursor label on hover over the cell. This statistics is useful for identification of low traffic cells.
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% responsive_image path: assets/img/larra-rx-detections.png title: "Total number of detections" class: "img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Total number of detections by each receiver color-coded in map. The receiver is selectable by radio buttons on the left. Number of detection by the receiver in single cell is shown as cursor label on hover.
+</div>
 
 
 To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">

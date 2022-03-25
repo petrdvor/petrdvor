@@ -2,10 +2,21 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+description: Topics I usually cover.
 nav: true
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+During my doctoral period at uni I was teaching classes:
+* Theory of Electromagnetic Field
+* Communication and Multimedia
 
-Organize your courses by years, topics, or universities, however you like!
+Currently I provide classes for Czech Air Navigation Institute (CANI). 
+My topics for ATSEP (Air traffic safety electronics personnel) courses are:
+* BASIC Training
+  * Surveillance (Introduction to Surveillance, Avionics, Primary radar, Secondary radar, Surveillance data message format, Automatic Dependent Surveillance, Weather radar, Integration of surveillance information, Multilateration, Airport Surface Surveillance, Display of Surveillance Information, Analysis Tools)
+* QUALIFICATION Training
+  *  Primary Surveillance Radar
+  *  Secondary Surveillance Radar
+  *  Automatic Dependent Surveillance
+
+And some other selected topics.
